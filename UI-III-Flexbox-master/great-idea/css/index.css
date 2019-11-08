@@ -1,0 +1,265 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+
+/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+* {
+  box-sizing: border-box;
+}
+
+
+html {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+  font-size: 20px;
+  font-family: Roboto, sans-serif;
+}
+
+
+p {
+  line-height: 1.25;
+}
+
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+}
+
+
+#main-heading {
+  font-size: 30px;
+}
+
+
+header nav a {
+  margin-left: 20px;
+  font-size: 18px;
+}
+
+header nav .first-anchor {
+  margin-left: 0;
+}
+
+#main-heading {
+  color: green;
+}
+
+/* Services */
+serviceHead{
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  margin: 20px 0;
+  padding: 20px 0;
+}
+
+.serviceCont {
+	box-sizing: border-box;
+	margin: 0 auto;
+	width: 876px
+}
+
+.serviceCont nav{
+	display: flex;
+	align-items: baseline;
+	padding: 10px;
+	justify-content: space-between;
+	width: 100%;
+	padding: 10px;
+	text-align: center;
+}
+
+nav a {
+	text-decoration: none;
+	color: grey;
+}
+
+.services-header-img{
+	width: 100%;
+	margin: 0 auto;
+}
+
+.services-header-img{
+	margin-bottom: 15px
+}
+
+#Box-container {
+	display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+	border-top: 1px solid black;
+	border-bottom: 2px solid black;
+	width: 100%;
+
+}
+
+.Box{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	margin: 20px 0;
+	padding: 25px;
+	width: 45%;
+	vertical-align: top;
+	border: 1px solid black;
+	background-color: #f4f3f4;
+}
+.Box2{
+	margin: 20px 2%;
+	width: 45%;
+	vertical-align: top;
+	border: 1px solid black
+}
+.Box3{
+	margin: 20px 2%;
+	width: 45%;
+	vertical-align: top;
+	border: 1px solid black
+}
+.Box4{
+	margin: 20px 2%;
+	width: 45%;
+	vertical-align: top;
+	border: 1px solid black
+}
+.Box5{
+	margin: 20px 2%;
+	width: 45%;
+	vertical-align: top;
+	border: 1px solid black
+}
+.Box6{
+	margin: 20px 2%;
+	width: 45%;
+	vertical-align: top;
+	border: 1px solid black
+}
+.bottomBox{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	width: 100%;
+}
+}
+.Box7{
+	margin: 20px 2%;
+	width: 45%;
+	vertical-align: top;
+	border: 1px solid black
+}
+ul { list-style: square }
+li { display: list-item,
+			margin-left: 1.5em
+}
+
+
+.Box8{
+	margin: 20px 2%;
+	width: 45%;
+	vertical-align: top;
+	border: 1px solid black
+	}
+	footer {
+		text-align: center;
+	}
+
+	.Box button {
+	  align-self: flex-start;
+	  margin-top: 15px;
+	  padding: 10px 50px;
+	  border-radius: 5px;
+	  border: 1px solid black;
+		background-color: white;
+	}
+
+	#facts {
+	  display: flex;
+	  justify-content: space-between;
+	  margin-top: 40px;
+	}
+	#facts-content {
+	  display: flex;
+	  flex-direction: column;
+	  height: 275px;
+	  width: 400px;
+	}
+
+	#facts-content ul {
+  margin-top: 20px;
+	}
+	#facts-content ul li {
+	  list-style-type: square;
+	  list-style-position: inside;
+	}
+	#copyright {
+	  padding: 100px;
+	  text-align: center;
+	}
